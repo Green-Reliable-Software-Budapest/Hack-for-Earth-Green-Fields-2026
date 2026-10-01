@@ -1,4 +1,5 @@
 import importlib.util
+import sys
 import unittest
 from pathlib import Path
 
@@ -8,6 +9,7 @@ MODULE_PATH = HERE / "greencheck.py"
 
 spec = importlib.util.spec_from_file_location("greencheck", MODULE_PATH)
 greencheck = importlib.util.module_from_spec(spec)
+sys.modules["greencheck"] = greencheck
 assert spec.loader is not None
 spec.loader.exec_module(greencheck)
 
