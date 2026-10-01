@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use materials from this repository, please cite them as below."
+title: "Hack for Earth 2026 — Greener Fields"
+authors:
+  - name: "Data Immigrant Kft."
+  - name: "Green Reliable Software Budapest"
+date-released: "2026-10-01"
+version: "1.0.0"
+repository-code: "https://github.com/Green-Reliable-Software-Budapest/Hack-for-Earth-Green-Fields-2026"
+license: "Apache-2.0"
